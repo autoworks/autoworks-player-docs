@@ -6,5 +6,5 @@
 
 Our platform is about to bring the power of modern software to the industry.
 
-[GitHub](https://github.com/docsifyjs/docsify/)
+[GitHub](#)
 [Get Started](#autoworks-player)
