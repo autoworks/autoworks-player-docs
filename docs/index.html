@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charSet="utf-8" />
+  <title>Auto.Works Player</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="initial-scale=1" />
+  <link rel="shortcut icon" href="_assets/meta/favicon.svg" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <link href="_assets/css/index.css?v=0.1" rel="stylesheet">
+  <link href="_assets/example-react/react.css?v=0.1" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      coverpage: true,
+      logo: '/_assets/image/autoworks-dark.svg',
+      name: 'Auto.Works Player',
+      themeColor: '#19c784',
+      repo: '',
+      loadSidebar: true,
+      subMaxLevel: 3,
+      auto2top: true,
+      search: {
+        noData: {
+          '/': 'No results!',
+        },
+        paths: 'auto',
+        placeholder: {
+          '/': 'Search',
+        },
+      },
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+</body>
+</html>
