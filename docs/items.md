@@ -10,6 +10,8 @@ The Auto.Works player can display items of various types. Currently supported ty
 
 All types share some required information to populate the thumbnail navigation, and all image based types also support [hotspot](#hotspots) functionality to link between items.
 
+All items to be displayed go under an array of `items`.
+
 ## Photo
 
 Display a single photo, optionally using a responsive image to supply content to devices at an optimal size.

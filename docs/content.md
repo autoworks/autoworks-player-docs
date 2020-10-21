@@ -1,5 +1,7 @@
 # Content
 
+These go at the top level of the props of the React component, or the top level of the `options` object.
+
 ## Info Panel
 
 ### `infoHeading`
@@ -66,7 +68,7 @@ infoChildren: (<p>Custom content</p>)
 Hide the info panel, even if it has content.
 
 ```js
-infoChildren: (<p>Custom content</p>)
+infoHidden: true
 ```
 
 ### `infoOnLeft`

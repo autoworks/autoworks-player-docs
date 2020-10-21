@@ -1,11 +1,18 @@
 # AWPDocs
 
-Install the Docsify CLI globally
+Install the Docsify CLI
 ```bash
-yarn global add docsify-cli
+yarn
+```
+
+Update examples JS
+```
+cd example-react
+yarn parcel build examples/react.js -d ./docs/_assets/example-react/
 ```
 
 View docs
 ```bash
-docsify serve ./docs
+yarn docs
 ```
+
