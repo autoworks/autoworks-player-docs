@@ -3,7 +3,7 @@
     "docsify": "^4.11.6"
   },
   "dependencies": {
-    "autoworks-player": "ssh://git@github.com:autoworks/Player.git"
+    "autoworks-player": "https://github.com/autoworks/Player.git"
   },
   "scripts": {
     "docs": "docsify serve ./docs"

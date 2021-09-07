@@ -6,5 +6,5 @@
 
 Our platform is about to bring the power of modern software to the industry.
 
-[GitHub](#)
+[GitHub](https://github.com/autoworks/Player)
 [Get Started](#autoworks-player)

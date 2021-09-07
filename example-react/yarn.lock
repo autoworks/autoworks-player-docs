@@ -2285,9 +2285,9 @@ autoprefixer@^9.6.1:
     postcss "^7.0.26"
     postcss-value-parser "^4.0.2"
 
-"autoworks-player@ssh://git@github.com:autoworks/Player.git":
+"autoworks-player@https://github.com/autoworks/Player.git":
   version "0.1.6"
-  resolved "ssh://git@github.com:autoworks/Player.git#f6413f14170e7bbc772fa67fcdfdecedb00b7cee"
+  resolved "https://github.com/autoworks/Player.git#2c64a2d9f2b7f554621ecd62d0d18f997a2bde4d"
   dependencies:
     backline-grid "^1.0.1"
     backline-mixins "^1.0.3"
