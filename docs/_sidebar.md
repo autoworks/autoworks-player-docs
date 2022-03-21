@@ -1,7 +1,7 @@
 - [Getting Started](/#autoworks-player)
 
-- [Content](content.md)
+- [Display Options](display-options.md)
 
-- [Items](items.md)
+- [Asset Options](asset-options.md)
 
-- [Config](config.md)
+- [Extra Configuration](config.md)

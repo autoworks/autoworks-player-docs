@@ -1,9 +1,9 @@
 {
   "devDependencies": {
-    "docsify": "^4.11.6"
+    "docsify-cli": "^4.4.4"
   },
   "dependencies": {
-    "autoworks-player": "https://github.com/autoworks/Player.git"
+    "autoworks-player": "https://github.com/autoworks/Player"
   },
   "scripts": {
     "docs": "docsify serve ./docs"
