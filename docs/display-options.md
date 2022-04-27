@@ -51,13 +51,17 @@ infoTextSecondary: '£447/Month (PCP)'
 
 ### `infoChildren`
 
-- **Type:** React Element
+- **Type:** React Element or string
 - **Default:** `null`
 
-Pass a custom React component to use as the info panel content.
+Pass a custom React component or HTML string to use as the info panel content.
 
 ```js
+// React Element
 infoChildren: (<p>Custom content</p>)
+
+// HTML
+infoChildren: '<p>Custom content</p>'
 ```
 
 ### `infoHidden`
