@@ -9,7 +9,7 @@ These go at the top level of the props of the React component, or the top level 
 - **Type:** function
 - **Default:** `null`
 
-Content which appears the main viewing area when in showcase mode.
+Fires when user navigates to a different asset.
 
 ```js
 onNavigation: ({ id, index, type }) => {
@@ -22,7 +22,7 @@ onNavigation: ({ id, index, type }) => {
 - **Type:** function
 - **Default:** `null`
 
-Content which appears the main viewing area when in showcase mode.
+Fires when user opens the showcase.
 
 ```js
 onShowcaseEnter: () => { console.log('Entered showcase mode') }
@@ -33,7 +33,7 @@ onShowcaseEnter: () => { console.log('Entered showcase mode') }
 - **Type:** function
 - **Default:** `null`
 
-Content which appears the main viewing area when in showcase mode.
+Fires when user closes the showcase.
 
 ```js
 onShowcaseExit: () => { console.log('Exited showcase mode') }
@@ -44,7 +44,7 @@ onShowcaseExit: () => { console.log('Exited showcase mode') }
 - **Type:** function
 - **Default:** `null`
 
-Content which appears the main viewing area when in showcase mode.
+Fires when the `<video>` element’s `timeupdate` event is fired. For more information see [MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/timeupdate_event).
 
 ```js
 onVideoProgress: ({ id, index, progress }) => {
