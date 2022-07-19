@@ -67,13 +67,13 @@ The iframe also passes events for the component height changing, and for when ev
 const iframe = document.getElementById('demo')
 
 function onMsg(e) {
-  if (!e.data.type) return
+  if (!e.origin !== 'https://player.auto.works') return
   if (e.data.type === 'ready') {
     iframe.contentWindow.postMessage(options, '*')
   }
 
   // keeps the frame height in sync with the player height
-  iframe.height = e.data.height
+  if (e.data.height) iframe.height = e.data.height
 }
 
 window.addEventListener('message', onMsg)
