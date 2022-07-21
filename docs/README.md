@@ -56,18 +56,20 @@ player.updateConfig(newOptions)
 Alternatively, the player can be embedded via an iframe:
 
 ```html
-<iframe id="demo" width={400} height={600} src="https://player.auto.works/" title="demo" />
+<iframe id="demo" width="400" height="6002" src="https://player.auto.works/" title="demo"></iframe>
 ```
 
-The IFrame uses `postMessage` in order to pass the options to the player. The IFrame will post a `ready` event with the IFrame height once the JS in the frame executes -- at this point the options can be passed.
+The IFrame uses `postMessage` in order to pass the options to the player. The IFrame will post a `ready` event once the JS in the frame executes -- at this point the options can be passed.
 
-The iframe also passes events for the component height changing, and for when events from the component are  called.
+The iframe also passes events for the component height changing, and for when events from the component are called.
+
+The code block below shows you a likely implementation. Please note that the `window.addEventListener` call should be executed/placed as soon after the IFrame element as possible (ideally, immediately after).
 
 ```js
 const iframe = document.getElementById('demo')
 
 function onMsg(e) {
-  if (!e.origin !== 'https://player.auto.works') return
+  if (e.origin !== 'https://player.auto.works') return
   if (e.data.type === 'ready') {
     iframe.contentWindow.postMessage(options, '*')
   }
