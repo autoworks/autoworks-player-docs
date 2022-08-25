@@ -97,6 +97,17 @@ infoOnLeft: true
 showcaseHeading: 'Volkswagen Tiguan'
 ```
 
+### `forceShowcase`
+
+- **Type:** Boolean
+- **Default:** `false`
+
+Forces the Autoworks Player to always be in Showcase mode
+
+```js
+forceShowcase: true
+```
+
 ### `showcaseText`
 
 - **Type:** : string
@@ -143,6 +154,17 @@ Disables the Auto.Works header above the main viewing area.
 
 ```js
 hideBranding: true
+```
+
+### `hideThumbnails`
+
+- **Type:** Boolean
+- **Default:** `false`
+
+Hides the row of thumbnails in the bottom of the Player
+
+```js
+hideThumbnails: true
 ```
 
 ### `initialIndex`

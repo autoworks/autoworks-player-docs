@@ -4,6 +4,19 @@ These go at the top level of the props of the React component, or the top level 
 
 ## Events
 
+### `onExteriorRotate`
+
+- **Type:** function
+- **Default:** `null`
+
+Fires when user interaction causes a rotation in the Exterior 360˚ Panorama
+
+```js
+onExteriorRotate: ({ newFrame, previousFrame })
+  console.log('Exterior rotated to frame', newFrame, 'from', previousFrame)
+}
+```
+
 ### `onNavigation`
 
 - **Type:** function
