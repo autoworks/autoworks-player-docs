@@ -201,3 +201,50 @@ Display an image or custom component in the bottom right of the Viewer when in s
 ```js
 hideBranding: true
 ```
+
+## Top Navigation
+
+### `topNav.exteriorCaption`
+
+- **Type:** : string
+- **Default**: `null`
+
+```js
+topNav: {
+  exteriorCaption: 'Exterior'
+}
+```
+
+### `topNav.interiorCaption`
+
+- **Type:** : string
+- **Default**: `null`
+
+```js
+topNav: {
+  interiorCaption: 'Interior'
+}
+
+```
+### `topNav.photoCaption`
+
+- **Type:** : string
+- **Default**: `null`
+
+```js
+topNav: {
+  photoCaption: 'Photos'
+}
+
+```
+### `topNav.videoCaption`
+
+- **Type:** : string
+- **Default**: `null`
+
+```js
+topNav: {
+  videoCaption: 'Video'
+}
+```
+
