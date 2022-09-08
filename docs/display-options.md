@@ -102,7 +102,7 @@ showcaseHeading: 'Volkswagen Tiguan'
 - **Type:** Boolean
 - **Default:** `false`
 
-Forces the Autoworks Player to always be in Showcase mode
+Forces the Player to always be in Showcase mode
 
 ```js
 forceShowcase: true
