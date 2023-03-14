@@ -86,6 +86,13 @@ Visually reverses the order of the info panel and viewing area on larger screens
 infoOnLeft: true
 ```
 
+### `useSwipeToSpin`
+
+- **Type:** Boolean
+- **Default:** `false`
+
+Enables the swipe to spin overlay on spin images.
+
 ## Showcase Mode
 
 ### `showcaseHeading`
