@@ -91,7 +91,7 @@ infoOnLeft: true
 - **Type:** Boolean
 - **Default:** `false`
 
-Enables the swipe to spin overlay on spin images.
+Enables the swipe to spin overlay on 360 exterior.
 
 ## Showcase Mode
 
