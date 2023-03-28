@@ -69,8 +69,8 @@ asap@~2.0.3:
   integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
 
 "autoworks-player@https://github.com/autoworks/Player.git":
-  version "0.1.6"
-  resolved "https://github.com/autoworks/Player.git#4dad442ce96ece5b3b83315a3b2e91e33783f651"
+  version "0.2.2"
+  resolved "https://github.com/autoworks/Player.git#c0546a4f21164c9a66595b0dcbf1f8cb89d2bc82"
   dependencies:
     backline-grid "^1.0.1"
     backline-mixins "^1.0.3"
