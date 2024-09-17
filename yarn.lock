@@ -68,9 +68,9 @@ asap@~2.0.3:
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
   integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
 
-"autoworks-player@https://github.com/autoworks/Player.git":
-  version "0.2.2"
-  resolved "https://github.com/autoworks/Player.git#c0546a4f21164c9a66595b0dcbf1f8cb89d2bc82"
+autoworks-player@autoworks/Player:
+  version "0.2.4"
+  resolved "https://codeload.github.com/autoworks/Player/tar.gz/7ed9288ced9626b05e163a0fe2db97f99ab7f1b2"
   dependencies:
     backline-grid "^1.0.1"
     backline-mixins "^1.0.3"
